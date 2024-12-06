@@ -2,7 +2,7 @@
 # Team Members
 - Shi Songen 
 - Xiong Hanyi
-- 
+- Wang Zhengkai
 
 # Game Introduction
 
