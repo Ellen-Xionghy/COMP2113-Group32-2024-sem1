@@ -70,6 +70,10 @@ To start the game, you have four options:
      - `drawmap.cpp` and `drawmap.h`: Handle the display of the game map.
      - `functions.cpp` and `functions.h`: Contain various game functions for player actions and game mechanics.
 
+# Video link
+   - https://youtu.be/F_2GEyPH6Dc
+
+
 # Compilation Instructions
 To compile and run the game program, use the following commands:
 
@@ -77,3 +81,5 @@ To compile and run the game program, use the following commands:
 make clean  
 make         
 ./my_program.exe
+
+
