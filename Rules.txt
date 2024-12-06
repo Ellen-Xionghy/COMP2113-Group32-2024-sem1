@@ -1,0 +1,91 @@
+
+*******************************************
+************Rules of Board Game************
+*******************************************
+
+************START GAME************
+To start this game, you have four choices:
+1.  You can start a new game by entering "1"
+2.  If you want to see the previous winner list, type"2"
+3.  If you want to read the rules, type "3"
+4.  If you want to quit the game, type "4"
+
+************GAME SET UP************
+
+1.  When you start a new game,
+you should first input the number of players.
+
+Remind: this number should be 2-4,
+out of this range will receive a warning 
+and you should input a number again 
+until this number is valid.
+
+2.  Next, input the name of players by order.
+
+Remind: the name should be non-empty and distinct
+else, you should input players' names again 
+until the names are valid.
+
+3.  Then you can see the map and players' name
+there are all kinds of squares on the map.
+Here to explain what different types of squares represent:
+		1)  "#" represents a normal square.
+			No special effects.
+		2)  "+" represent lucky square.
+			When the player moves to it,
+			there will be a bonus for the player.
+			This bonus is a random integer of 1 to 10,
+			the player will move "bonus" steps forward.
+		3)  "@" represents an unlucky square.
+			When the player moves to it,
+			there will be a penalty for the player.
+			This penalty is a random integer from 1 to 3,
+			the player will move "penalty" steps back.
+		4)  "*" represents a pause square.
+			When the player moves to it 
+			the player should pause for one round 
+			and can move next round
+		5)  "%" represents a swap square.
+			When the player moves to it,
+			the player will switch the position
+			with another random player.
+		6) If there are more than one player staying at the 
+			square, we will use "&" to represent them.
+		7) If there is only one player staying at the square,
+			we will use the player index to represent it.
+
+************GAMING PROCESS************
+
+1.  At first, every player is in the first square.
+
+2.  Then, every player rolls dice in order.
+	You should type "c" to roll the dice or 
+	to type "q" to quit the game. Other input 
+	will be considered invalid, and you will need to 
+	input it again.
+	
+3. Next, you can see how many steps you will move
+	and you can see your move on the map.
+	Then the next player will roll the dice.
+
+4.  Interestingly, when a player moves to a position
+	that another player stays in, the player who arrives 
+	here first will move back 3 squares.
+
+5.  When a player is near the destination, for example, 
+	3 spaces to the destination, 
+	the player must roll 3 to get to the destination
+	otherwise, the player will move back. If the dice is 5,
+	the position will be 2 spaces to the destination
+
+************FINISHING GAME************
+
+1.  When a player arrives at the destination, 
+	the game will end in that round.
+2.  The winner will be recorded and stored
+
+That is all about this game. I hope you enjoy it.
+
+************ THE    END ************
+	
+
